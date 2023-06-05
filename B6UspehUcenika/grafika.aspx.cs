@@ -12,7 +12,7 @@ namespace B6UspehUcenika
 {
     public partial class grafika : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=B6;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+        SqlConnection con = new SqlConnection("Data Source=DESKTOP-Q7KL7JB;Initial Catalog=b6;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         SqlCommand cmd;
         SqlDataReader dr;
         protected void Page_Load(object sender, EventArgs e)
